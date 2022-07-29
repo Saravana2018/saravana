@@ -14,7 +14,7 @@
 firstname: <input type="text" name="firstname" value="{{old('firstname')}}"
 
 ><br>
-lastname: <input type="text" name="lastname" value="{{old('lastname')}}"
+last: <input type="text" name="lastname" value="{{old('lastname')}}"
 
 ><br>
 email: <input type="text" name="email" value="{{old('email')}}"
