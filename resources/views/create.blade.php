@@ -11,10 +11,10 @@
     @endif
 
 <form action="create" method="post">@csrf
-firstnames: <input type="text" name="firstname" value="{{old('firstname')}}"
+firstname: <input type="text" name="firstname" value="{{old('firstname')}}"
 
 ><br>
-lastnames: <input type="text" name="lastname" value="{{old('lastname')}}"
+lastname: <input type="text" name="lastname" value="{{old('lastname')}}"
 
 ><br>
 email: <input type="text" name="email" value="{{old('email')}}"
